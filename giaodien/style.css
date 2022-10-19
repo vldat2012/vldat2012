@@ -1,0 +1,124 @@
+/* .navbar{
+    background-color: rgb(219, 62, 62) !important;
+}
+.navbar li a {
+    color: black !important;
+}
+.navbar li a:hover{
+    color: rgb(255, 255, 255) !important;
+}
+@import url('https://fonts.google.com/specimen/Bungee+Spice');
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Bungee Spice';
+    font-size: 25px;
+    color: rgb(3, 26, 26);
+}
+.carousel-inner img{
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 10%;
+}
+.carousel-caption h1{
+
+    color: rgb(255, 0, 0);
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 15px 15px 15px;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    color: rgb(255, 225, 0);
+}
+.btn-outline-light{
+    border: 1px solid black;
+}
+.btn-outline-ligh:hover {
+    background-color: rgb(234, 13, 13);
+    border: 1px solid black;
+}
+.btn-primary {
+    background-color: rgb(0, 42, 255);
+    border: 1px solid white;
+}
+.btn-primary:hover {
+    background-color: rgb(34, 21, 218);
+    border: 1px solid white;
+}
+.jumbotron {
+    padding: 1rem;
+}
+/*Điều chỉnh phương tiện*/
+/* @media (max-width: 992px){
+    .carousel-caption{
+        top: 20%;
+    }
+    .carousel-caption h1{
+        font-size: 250%;
+    }
+    .carousel-caption h3{
+        font-size: 160%;
+    }
+    .carousel-caption .btn{
+        font-size: 120%;
+    }
+}
+@media (max-width: 768px){
+    .carousel-caption{
+        top: 20%;
+    }
+    .carousel-caption h1{
+        font-size: 220%;
+    }
+    .carousel-caption h3{
+        font-size: 140%;
+    }
+    .carousel-caption .btn{
+        font-size: 95%;
+    }
+}
+@media (max-width: 576px){
+    .carousel-caption{
+        top: 10%;
+    }
+    .carousel-caption h1{
+        font-size: 150%;
+    }
+    .carousel-caption h3{
+        font-size: 110%;
+    }
+    .carousel-caption .btn{
+        font-size: 90%;
+    }
+}
+.welcome hr{
+    margin-bottom: 2rem;
+}
+.col-12 h1 {
+    color: crimson;
+    font-size: 300%;
+} */ */
+
+
+
+.slide1 {
+    /* Chỉnh ảnh full div => cover , căn ra giữa : center */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../ảnh/ảnh\ nền\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../ảnh/ảnh\ nền\ 3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../ảnh/ảnh\ nền\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+}
